@@ -1,0 +1,47 @@
+* {
+  margin: 0!important;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+    box-sizing: border-box;
+}
+
+.home {
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/21492/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1600");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  padding: 100px 100px;
+  display: flex;
+  margin: auto;
+  height: 100vh;
+  justify-content: space-between;
+}
+.card {
+  width: 23%;
+  height: 400px;
+  border-radius: 10px;
+  background-color: rgb(212, 209, 206);
+  overflow: hidden;
+  transition: 0.5s;
+}
+.image {
+  overflow: hidden;
+}
+img {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+.card-body {
+  padding: 20px;
+  line-height: 2;
+}
+.card:hover {
+  background-color: aqua;
+  transition: 0.5s;
+}
